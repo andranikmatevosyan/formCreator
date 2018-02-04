@@ -1,0 +1,86 @@
+select:hover {
+	cursor: pointer;
+}
+
+input:focus, select:focus {
+	outline-offset: none !important;
+}
+
+fieldset {
+    background-color: #fff;
+    border-radius: 5px;
+	border: 1px solid silver !important;
+}
+
+legend
+{
+  	margin-bottom:0px;
+	margin-left:16px;
+	width: auto !important;
+	border: none !important
+}
+
+.pull-right {
+	float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.half-width {
+	width: 50% !important;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+.height1 {
+    height: 1em;
+}
+.height05 {
+    height: 0.5em;
+}
+
+#fb-template {
+  // display: none;
+}
+
+.template-textarea-wrap {
+  display: block !important;
+}
+
+label.error {
+    color: brown;
+    font-size: 10px;
+}
+
+li.form-field {
+    border: 1px solid silver;
+}
+
+.form-rendered .build-wrap {
+  display: none;
+}
+
+.render-wrap {
+  display: none;
+}
+
+.form-rendered .render-wrap {
+  display: block;
+}
+
+#edit-form {
+  display: none;
+  float: right;
+}
+
+.form-rendered #edit-form {
+  display: block;
+}
