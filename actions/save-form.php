@@ -160,11 +160,5 @@ if(isset($_POST['general'])) {
 	if($formInsert == true) {
 		echo 'inserted';
 	}
-	/*
-	echo '<pre>';
-	print_r($formValues);
-	print_r($formData);
-	echo '</pre>';
-	*/
 }
 ?>
